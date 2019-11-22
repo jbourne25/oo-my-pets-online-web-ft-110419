@@ -51,7 +51,7 @@ class Owner
     
   def sell_pets
     pets = self.dogs + self.cats 
-    pets.owner == nil ? pets.mood = "nervous" : pets.mood = "happy" 
+    pet.owner == nil ? pet.mood = "nervous" : pet.mood = "happy" 
     end
   end 
   
