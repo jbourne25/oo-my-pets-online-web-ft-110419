@@ -72,7 +72,7 @@ class Owner
   end
   
   def list_pets 
-    pets.all.map  
+    @@all.map  
 
   end 
   
