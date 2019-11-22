@@ -33,6 +33,10 @@ class Owner
     dog = Dog.new(name, self)
   end 
   
+  def walk_dogs
+    dog
+  end 
+  
   def self.count 
     self.all.count 
   end
