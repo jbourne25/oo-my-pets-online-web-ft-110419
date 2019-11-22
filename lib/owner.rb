@@ -34,7 +34,10 @@ class Owner
   end 
   
   def walk_dogs
-    if Dog.all.find do |dog|
+    Dog.all.find do |dog|
+      if dog.owner == self 
+        dog.mood = "happy"
+      end 
       
   end 
   
