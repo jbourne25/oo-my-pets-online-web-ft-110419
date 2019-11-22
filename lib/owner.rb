@@ -6,6 +6,7 @@ class Owner
   def initialize(name)
      @name = name
      @species = "human" 
+     @@all << self 
   end
   
   def say_species 
@@ -13,6 +14,6 @@ class Owner
     return "I am a human."
   end
   def self.all 
-    @@all << self 
+    @@all
   end 
 end
