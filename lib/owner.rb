@@ -13,6 +13,6 @@ class Owner
     return "I am a human."
   end
   def self.all 
-    @@all
+    @@all << Owner.new 
   end 
 end
