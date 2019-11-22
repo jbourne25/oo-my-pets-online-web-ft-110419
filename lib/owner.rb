@@ -72,8 +72,8 @@ class Owner
   end
   
   def list_pets 
-    self.all.grep 
-    puts list_pets
+    self.all.map  
+
   end 
   
 end
