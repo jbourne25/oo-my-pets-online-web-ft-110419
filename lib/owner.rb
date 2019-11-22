@@ -37,7 +37,8 @@ class Owner
     Dog.all.find do |dog|
       if dog.owner == self 
         dog.mood = "happy"
-      end 
+      end
+    end 
       
   end 
   
