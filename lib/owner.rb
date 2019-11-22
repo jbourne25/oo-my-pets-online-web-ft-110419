@@ -72,7 +72,7 @@ class Owner
   end
   
   def list_pets 
-    self.all.count.grep 
+    self.all.grep 
     puts list_pets
   end 
   
