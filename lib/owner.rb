@@ -72,7 +72,7 @@ class Owner
   end
   
   def list_pets 
-    @@all.map  
+    puts "I have #{owner.dogs.count}, and #{owner.cats.count}."" 
 
   end 
   
