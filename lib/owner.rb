@@ -49,19 +49,19 @@ class Owner
       end
     end 
     
-  #   def sell_pets
-  #   pets = self.dogs + self.cats
-  #   pets.each do |pet|
-  #     pet.mood = "nervous"
-  #     pet.owner = nil
-  #   end
-  # end
-    
-  def sell_pets
-    pets = self.dogs + self.cats 
-    pets.owner == nil ? pet.mood = "nervous" : pet.mood = "happy" 
+    def sell_pets
+    pets = self.dogs + self.cats
+    pets.each do |pet|
+      pet.mood = "nervous"
+      pet.owner = nil
     end
-  end 
+  end
+    
+  # def sell_pets
+  #   pets = self.dogs + self.cats 
+  #   pets.owner == nil ? pet.mood = "nervous" : pet.mood = "happy" 
+  #   end
+  # end 
   
   def self.count 
     self.all.count 
