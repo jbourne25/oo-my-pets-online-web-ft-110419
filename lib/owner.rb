@@ -20,7 +20,7 @@ class Owner
   end
   
   def cats 
-    cat.owner.select  
+    cats.all.select{ |cat| cat.owner }   
   end 
   
   def self.count 
