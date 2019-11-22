@@ -20,7 +20,7 @@ class Owner
   end
   
   def cats 
-    
+    self.cat.owner 
   end 
   
   def self.count 
