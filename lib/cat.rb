@@ -1,8 +1,8 @@
 class Cat
   
-  def initialize(name, Owner)
+  def initialize(name, owner)
     @name = name 
-    @owner = owner
+    @@owner = owner
   end 
  
 end
