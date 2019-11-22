@@ -17,5 +17,5 @@ class Cat
   end 
   def cats 
     self.all.collect
- 
+  end 
 end
