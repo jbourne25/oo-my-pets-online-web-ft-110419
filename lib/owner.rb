@@ -13,6 +13,6 @@ class Owner
     return "I am a human."
   end
   def self.all 
-   # Owner.all.include? { |x| x.owner }
+   Self.all.include? { |x| x.owner }
   end 
 end
