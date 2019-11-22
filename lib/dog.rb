@@ -15,6 +15,7 @@ class Dog
   def self.all 
     @@all 
   end 
-  
+  def cats 
+    cats.all.collection 
   
 end
