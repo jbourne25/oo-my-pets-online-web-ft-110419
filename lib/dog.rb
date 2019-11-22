@@ -6,6 +6,9 @@ class Dog
     @name = name 
     @owner = owner
     @mood = "nervous"
+  end
+  def mood
+    @mood 
   end 
   
 end
