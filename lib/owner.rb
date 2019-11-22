@@ -9,8 +9,6 @@ class Owner
     @species = "human"
     @@all << self
   
-    
-    
   end
   
   def say_species 
@@ -21,6 +19,6 @@ class Owner
     @@all 
   end
   def self.count 
-    Owner.new.count 
+    self.all.count 
   end 
 end
