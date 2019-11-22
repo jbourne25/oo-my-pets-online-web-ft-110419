@@ -11,5 +11,7 @@ class Owner
   def say_species 
     @say_species
     return "I am a human."
-  end 
+  end
+  def self.all 
+    @@all << @owner 
 end
