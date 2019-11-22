@@ -19,7 +19,7 @@ class Owner
     @@all 
   end
   def cats 
-    self.all.collection 
+    cats.all.collect
   end 
   def self.count 
     self.all.count 
