@@ -34,7 +34,7 @@ class Owner
   end 
   
   def walk_dogs
-    dog
+    dog.mood = "happy"
   end 
   
   def self.count 
