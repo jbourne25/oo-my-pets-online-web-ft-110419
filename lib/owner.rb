@@ -8,7 +8,7 @@ class Owner
     @name = name
     @species = "human"
     @@all << self
-    @@count = count 
+    @@count << self 
     
   end
   
