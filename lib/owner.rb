@@ -69,5 +69,11 @@ class Owner
   end
   def self.reset_all 
     self.all.clear 
+  end
+  
+  def list_pets 
+    pets.all.grep 
+    puts list_pets
   end 
+  
 end
