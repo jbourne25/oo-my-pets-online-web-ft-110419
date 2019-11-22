@@ -5,7 +5,8 @@ class Owner
  
   def initialize(name)
      @name = name
-     @species = "human" 
+     @species = "human"
+     @@all 
   end
   
   def say_species 
@@ -13,6 +14,6 @@ class Owner
     return "I am a human."
   end
   def self.all 
-   Self.all.include? { |x| x.owner }
+   @@all 
   end 
 end
