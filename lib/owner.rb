@@ -34,7 +34,8 @@ class Owner
   end 
   
   def walk_dogs
-    if Dog.all.find { |dog|
+    if Dog.all.find do |dog|
+      
   end 
   
   def self.count 
