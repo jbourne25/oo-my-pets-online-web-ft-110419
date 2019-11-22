@@ -34,7 +34,7 @@ class Owner
   end 
   
   def walk_dogs
-    dogs.mood == "happy"
+    if Dog.all.find { |dog|
   end 
   
   def self.count 
