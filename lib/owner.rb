@@ -51,7 +51,7 @@ class Owner
     
   def sell_pets
     pets = self.dogs + self.cats 
-    pets.owner == self  
+    pets.owner == self ? pets.mood = "happy" : pets.mood = "nervous" 
   end 
       
   end 
