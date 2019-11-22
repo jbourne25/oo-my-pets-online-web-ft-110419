@@ -12,4 +12,5 @@ class Owner
     @say_species
     puts "I am a human."
   end 
+  say_species
 end
