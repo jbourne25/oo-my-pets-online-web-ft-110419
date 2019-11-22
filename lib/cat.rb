@@ -12,7 +12,7 @@ class Cat
     @mood 
   end 
   def self.all
-    Cat.all 
+    @@all 
   end 
  
 end
