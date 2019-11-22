@@ -25,7 +25,15 @@ class Owner
   
   def buy_cat(name)
     cat = Cat.new(name, self) 
+  end
+  def feed_cats 
+    Cat.all.find do |cat|
+      if cat.owner == self 
+        cat.mood = "happy"
+      end
+    end 
   end 
+  
   def dogs 
     Dog.all.select{ |dog| dog.owner == self }   
   end
