@@ -18,9 +18,11 @@ class Owner
   def self.all 
     @@all 
   end
+  
   def cats 
-    cats.all.collect
+    
   end 
+  
   def self.count 
     self.all.count 
   end
