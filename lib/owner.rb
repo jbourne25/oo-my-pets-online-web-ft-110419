@@ -20,6 +20,6 @@ class Owner
     @@all 
   end
   def self.count 
-    Owners.new.count 
+    @@Owners.new.count 
   end 
 end
